@@ -3229,37 +3229,40 @@ namespace Relax_Now
 			public const int Bird = 2131165184;
 			
 			// aapt resource value: 0x7f070001
-			public const int Campfire = 2131165185;
+			public const int Birds = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int Chimes = 2131165186;
+			public const int Campfire = 2131165186;
 			
 			// aapt resource value: 0x7f070003
-			public const int Crickets = 2131165187;
+			public const int Chimes = 2131165187;
 			
 			// aapt resource value: 0x7f070004
-			public const int Frogs = 2131165188;
+			public const int Crickets = 2131165188;
 			
 			// aapt resource value: 0x7f070005
-			public const int kookaburra = 2131165189;
+			public const int Frogs = 2131165189;
 			
 			// aapt resource value: 0x7f070006
-			public const int PanFlute = 2131165190;
+			public const int kookaburra = 2131165190;
 			
 			// aapt resource value: 0x7f070007
-			public const int Thunder = 2131165191;
+			public const int Pan = 2131165191;
 			
 			// aapt resource value: 0x7f070008
-			public const int Trumpet = 2131165192;
+			public const int Thunder = 2131165192;
 			
 			// aapt resource value: 0x7f070009
-			public const int Waterfall = 2131165193;
+			public const int Trumpet = 2131165193;
 			
 			// aapt resource value: 0x7f07000a
-			public const int Waves = 2131165194;
+			public const int Waterfall = 2131165194;
 			
 			// aapt resource value: 0x7f07000b
-			public const int Whales = 2131165195;
+			public const int Waves = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int Whales = 2131165196;
 			
 			static Raw()
 			{

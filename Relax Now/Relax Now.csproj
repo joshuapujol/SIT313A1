@@ -168,7 +168,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\WhaleOn.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\Birds.wav" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\raw\Bird.wav" />
   </ItemGroup>
@@ -188,9 +190,6 @@
     <AndroidResource Include="Resources\raw\kookaburra.wav" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\raw\PanFlute.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\raw\Thunder.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +203,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\raw\Whales.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\Pan.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
