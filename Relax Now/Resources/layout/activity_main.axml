@@ -104,20 +104,20 @@
             android:scrollIndicators="none"
             android:layout_marginLeft="17.0dp" />
         <Button
-            android:text="Button"
+            android:text="Timer"
             android:id="@+id/button1"
             android:layout_marginLeft="4.0dp"
-            android:layout_marginTop="39.5dp" />
+            android:layout_marginTop="32.5dp" />
         <Button
-            android:text="Button"
+            android:text="Record"
             android:id="@+id/button2"
             android:layout_marginLeft="22.0dp"
-            android:layout_marginTop="40.0dp" />
+            android:layout_marginTop="32.0dp" />
         <Button
-            android:text="Button"
+            android:text="Sounds"
             android:id="@+id/button3"
             android:layout_marginLeft="22.5dp"
             android:layout_marginRight="12.5dp"
-            android:layout_marginTop="40.0dp" />
+            android:layout_marginTop="31.5dp" />
     </GridLayout>
 </LinearLayout>

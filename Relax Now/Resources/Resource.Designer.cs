@@ -2696,14 +2696,14 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int masked = 2131296443;
+			// aapt resource value: 0x7f0900bc
+			public const int masked = 2131296444;
 			
 			// aapt resource value: 0x7f0900ac
 			public const int media_actions = 2131296428;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int message = 2131296441;
+			// aapt resource value: 0x7f0900ba
+			public const int message = 2131296442;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -2894,6 +2894,9 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
+			// aapt resource value: 0x7f0900b9
+			public const int textView1 = 2131296441;
+			
 			// aapt resource value: 0x7f0900a5
 			public const int text_input_password_toggle = 2131296421;
 			
@@ -2951,8 +2954,8 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int visible = 2131296442;
+			// aapt resource value: 0x7f0900bb
+			public const int visible = 2131296443;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
@@ -3197,7 +3200,10 @@ namespace Relax_Now
 			public const int support_simple_spinner_dropdown_item = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int tooltip = 2130968636;
+			public const int TimerActivity = 2130968636;
+			
+			// aapt resource value: 0x7f04003d
+			public const int tooltip = 2130968637;
 			
 			static Layout()
 			{

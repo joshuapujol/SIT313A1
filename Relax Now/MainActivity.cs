@@ -2,6 +2,7 @@
 using Android.Widget;
 using Android.Media;
 using Android.OS;
+using Android.Content;
 using Android.Support.V7.App;
 
 namespace Relax_Now
@@ -27,6 +28,14 @@ namespace Relax_Now
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            var timerBtn = FindViewById<Button>(Resource.Id.button1);
+
+            timerBtn.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(TimerActivity));
+                StartActivity(nextActivity);
+            };
 
             //Changes image on click
             ImageView img = FindViewById<ImageView>(Resource.Id.imageView1);
