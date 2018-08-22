@@ -30,10 +30,17 @@ namespace Relax_Now
             SetContentView(Resource.Layout.activity_main);
 
             var timerBtn = FindViewById<Button>(Resource.Id.button1);
+            var recordBtn = FindViewById<Button>(Resource.Id.button2);
 
             timerBtn.Click += (s, e) =>
             {
                 Intent nextActivity = new Intent(this, typeof(TimerActivity));
+                StartActivity(nextActivity);
+            };
+
+            recordBtn.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(recordActivity));
                 StartActivity(nextActivity);
             };
 

@@ -33,9 +33,10 @@ namespace Relax_Now
             SetContentView(Resource.Layout.TimerActivity);
             // Create your application here
 
-            var timerBtn = FindViewById<Button>(Resource.Id.button3);
+            var soundsBtn = FindViewById<Button>(Resource.Id.button3);
 
-            timerBtn.Click += (s, e) =>
+            // Go back to sounds Activity
+            soundsBtn.Click += (s, e) =>
             {
                 Intent nextActivity = new Intent(this, typeof(MainActivity));
                 StartActivity(nextActivity);
