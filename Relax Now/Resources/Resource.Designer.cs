@@ -2504,11 +2504,23 @@ namespace Relax_Now
 			// aapt resource value: 0x7f09003d
 			public const int bottom = 2131296317;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int btnStart = 2131296442;
-			
 			// aapt resource value: 0x7f0900bb
-			public const int btnStop = 2131296443;
+			public const int btnRPlay = 2131296443;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int btnRStop = 2131296444;
+			
+			// aapt resource value: 0x7f0900b9
+			public const int btnRecord = 2131296441;
+			
+			// aapt resource value: 0x7f0900be
+			public const int btnStart = 2131296446;
+			
+			// aapt resource value: 0x7f0900bf
+			public const int btnStop = 2131296447;
+			
+			// aapt resource value: 0x7f0900ba
+			public const int btnStopRecord = 2131296442;
 			
 			// aapt resource value: 0x7f090095
 			public const int button1 = 2131296405;
@@ -2633,8 +2645,8 @@ namespace Relax_Now
 			// aapt resource value: 0x7f09008b
 			public const int gridLayout1 = 2131296395;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int gridLayout2 = 2131296444;
+			// aapt resource value: 0x7f0900c0
+			public const int gridLayout2 = 2131296448;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -2708,14 +2720,14 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int masked = 2131296447;
+			// aapt resource value: 0x7f0900c3
+			public const int masked = 2131296451;
 			
 			// aapt resource value: 0x7f0900ac
 			public const int media_actions = 2131296428;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int message = 2131296445;
+			// aapt resource value: 0x7f0900c1
+			public const int message = 2131296449;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -2951,8 +2963,8 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090013
 			public const int transition_transform = 2131296275;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int txtTimer = 2131296441;
+			// aapt resource value: 0x7f0900bd
+			public const int txtTimer = 2131296445;
 			
 			// aapt resource value: 0x7f09002d
 			public const int uniform = 2131296301;
@@ -2966,8 +2978,8 @@ namespace Relax_Now
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900be
-			public const int visible = 2131296446;
+			// aapt resource value: 0x7f0900c2
+			public const int visible = 2131296450;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
