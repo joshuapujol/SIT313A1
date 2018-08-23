@@ -34,6 +34,14 @@ namespace Relax_Now
             // Create your application here
 
             var soundsBtn = FindViewById<Button>(Resource.Id.button3);
+            var recordBtn = FindViewById<Button>(Resource.Id.button2);
+
+            // Go back to record Activity
+            recordBtn.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(recordActivity));
+                StartActivity(nextActivity);
+            };
 
             // Go back to sounds Activity
             soundsBtn.Click += (s, e) =>

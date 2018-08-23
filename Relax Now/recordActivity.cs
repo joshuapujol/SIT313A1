@@ -61,8 +61,25 @@ namespace Relax_Now
             SetContentView(Resource.Layout.recordActivity);
             // Create your application here
 
+            var soundsBtn = FindViewById<Button>(Resource.Id.button3);
+            var timerBtn = FindViewById<Button>(Resource.Id.button1);
+
+            // Go back to record Activity
+            timerBtn.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(TimerActivity));
+                StartActivity(nextActivity);
+            };
+
+            // Go back to sounds Activity
+            soundsBtn.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(MainActivity));
+                StartActivity(nextActivity);
+            };
+
             // Request permissions 
-            if(CheckSelfPermission(Manifest.Permission.WriteExternalStorage) != Android.Content.PM.Permission.Granted 
+            if (CheckSelfPermission(Manifest.Permission.WriteExternalStorage) != Android.Content.PM.Permission.Granted 
                 && CheckSelfPermission(Manifest.Permission.RecordAudio) != Android.Content.PM.Permission.Granted)
             {
                 ActivityCompat.RequestPermissions(this, new string[]
