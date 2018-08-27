@@ -100,6 +100,7 @@ namespace Relax_Now
             btnPlay.Enabled = false;
             btnStopRecord.Enabled = false;
 
+            // Method for the buttons
             btnRecord.Click += delegate
             {
                 RecordAudio();
@@ -121,6 +122,7 @@ namespace Relax_Now
             };
         }
 
+        // Functionality for Stop Recording button
         private void StopLastRecord()
         {
             btnStop.Enabled = false;
@@ -136,6 +138,7 @@ namespace Relax_Now
             }
         }
 
+        // Functionality to play Last Recording
         private void StartLastRecord()
         {
             btnStopRecord.Enabled = false;
@@ -157,6 +160,7 @@ namespace Relax_Now
             Toast.MakeText(this, "Playing Recording", ToastLength.Short).Show();
         }
 
+        // Functionality to stop recording button
         private void StopRecorder()
         {
             mediaRecorder.Stop();
@@ -168,6 +172,7 @@ namespace Relax_Now
             Toast.MakeText(this, "Stop Recording", ToastLength.Short).Show();
         }
 
+        // Functionality for recording buttton
         private void RecordAudio()
         {
             if(isGrantedPermission)
@@ -192,6 +197,7 @@ namespace Relax_Now
             }
         }
 
+        // Initialising media recorder
         private void SetupMediaRecorder()
         {
             mediaRecorder = new MediaRecorder();
