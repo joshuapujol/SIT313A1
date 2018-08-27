@@ -59,8 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="recordActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimerActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -94,7 +96,13 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.RadialProgress">
+      <Version>1.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\BirdOff.png" />
@@ -168,7 +176,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\WhaleOn.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\Birds.wav" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\raw\Bird.wav" />
   </ItemGroup>
@@ -188,9 +198,6 @@
     <AndroidResource Include="Resources\raw\kookaburra.wav" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\raw\PanFlute.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\raw\Thunder.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +211,25 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\raw\Whales.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\Pan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TimerActivity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\meditation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\recordActivity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\microphone.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
