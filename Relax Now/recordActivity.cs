@@ -21,15 +21,13 @@ namespace Relax_Now
     {
 
         //Initialise Variables
-
         Button btnRecord, btnStopRecord, btnPlay, btnStop;
         string pathsave = "";
         MediaRecorder mediaRecorder;
         MediaPlayer mediaPlayer;
 
-
+        // Permissions to use voice recorder
         private const int REQUEST_PERMISSION_CODE = 1000;
-
         private bool isGrantedPermission = false;
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
@@ -58,8 +56,8 @@ namespace Relax_Now
         {
             base.OnCreate(savedInstanceState);
 
+            // Set Activity
             SetContentView(Resource.Layout.recordActivity);
-            // Create your application here
 
             var soundsBtn = FindViewById<Button>(Resource.Id.button3);
             var timerBtn = FindViewById<Button>(Resource.Id.button1);
@@ -92,6 +90,7 @@ namespace Relax_Now
             {
                 isGrantedPermission = true;
             }
+            // Buttons for recorder
             btnPlay = FindViewById<Button>(Resource.Id.btnRPlay);
             btnStop = FindViewById<Button>(Resource.Id.btnRStop);
             btnRecord = FindViewById<Button>(Resource.Id.btnRecord);

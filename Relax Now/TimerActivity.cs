@@ -17,7 +17,7 @@ namespace Relax_Now
     [Activity(Label = "TimerActivity")]
     public class TimerActivity : Activity
     {
-
+        // Decalare Variables
         RadialProgressView radialProgressView;
         Button btnStart, btnStop;
         TextView txtTimer;
@@ -30,9 +30,10 @@ namespace Relax_Now
         {
             base.OnCreate(savedInstanceState);
 
+            // Set Activity 
             SetContentView(Resource.Layout.TimerActivity);
-            // Create your application here
 
+            // Buttons for other activities 
             var soundsBtn = FindViewById<Button>(Resource.Id.button3);
             var recordBtn = FindViewById<Button>(Resource.Id.button2);
 
@@ -50,10 +51,12 @@ namespace Relax_Now
                 StartActivity(nextActivity);
             };
 
+            // Buttons for timer
             btnStart = FindViewById<Button>(Resource.Id.btnStart);
             btnStop = FindViewById<Button>(Resource.Id.btnStop);
             txtTimer = FindViewById<TextView>(Resource.Id.txtTimer);
 
+            // Begin timer
             btnStart.Click += delegate {
                 timer = new Timer();
                 timer.Interval = 1000; // 1 second
@@ -69,6 +72,7 @@ namespace Relax_Now
 
         }
 
+        // Function to add time. 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             sec++;
